@@ -1,0 +1,120 @@
+.rt{float:right;}
+a{
+    color:#fff;
+    text-decoration:none;
+}
+body{
+    background:#E3FAE3 url("../images/register_bg.png") no-repeat 80px 240px;
+}
+.top{
+    width:100%;
+    height:300px;
+    line-height:50px;
+    color: #fff;
+    background: url("../images/logo_a.png") no-repeat 23px -4px;
+}
+
+h1{
+    margin:30px auto;
+    text-align:center;
+    color:#FF4466;
+    font-weight: 900;
+    text-shadow: 0 1px 0 rgba(23,115,0,.7),0 2px 0 rgba(0,0,0,.5);
+}
+.login{
+    box-shadow: 0 0 2px rgba(23,115,0,0.2),
+                0 1px 1px rgba(23,115,0,.2),
+                0 3px 0 #fff,
+                0 4px 0 rgba(23,115,0,.2),
+                0 6px 0 #fff,
+                0 8px 0 rgba(23,115,0,.2)
+}
+h2{text-align: center;font-size: 30px;
+    }
+.container{
+    width: 400px;
+    height: 500px;
+    border:1px solid transparent;
+    border-radius: 5px;
+    margin-left:150px;
+    padding:10px;
+    position:absolute;
+    top:80px;
+    left:45%;
+}
+.control-label {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    font-size: 1.2em;
+    text-align: right;
+}
+.form-control {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+#captcha{
+    width:90px;
+}
+.help-block{
+    font-size: 12px;
+    min-width: 100px;
+    height: 30px;
+    padding: 5px;
+    line-height: 20px;
+    margin-left: 105px;
+    color: #000;
+    display: inline-block;
+}
+.user_pwd,.user_name{
+   visibility: hidden;
+}
+.bg-default {
+    color: #000;
+}
+.bg-success {
+    color:#070;
+}
+.bg-danger {
+    color:#700;
+}
+.btn {
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    margin-left: 20px;
+    color: #fff;
+}
+.btn-success {
+    background: #090;
+    border-color: #070;
+}
+.btn-danger {
+    background: #900;
+    border-color: #700;
+}
+#vcode{
+    display: inline-block;
+    vertical-align:bottom;
+}
+.btn_other{
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    margin-right: 100px;
+    color:#000;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+}
+.return_index{
+    margin-right: 10px;
+}

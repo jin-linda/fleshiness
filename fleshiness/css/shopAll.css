@@ -1,0 +1,9 @@
+.shopname{  height:100px;  width:100%;  background: #F7F6F4;  }
+div.cont{ text-align: center; line-height: 20px;}
+.cont span{display:inline-block;width:100px;height:100px; background: url("../images/all_logo.png") -11px -106px;}
+.cont ul {display: inline-block;height:100px; padding-top:20px;list-style-type: none;}
+.cont ul li{float: left; width:30px; border-right:2px solid #177300;margin-left:20px;padding-right: 5px; }
+.cont  li:nth-child(2), .cont li:nth-child(4),.cont li:nth-child(6),.cont li:nth-child(8){ margin-top: 10px;}
+.cont ul li a{font-size: 1.5em;color:#000;}
+.cont ul li a:hover{text-decoration: none;}
+body{background: #F2EEE3}

@@ -1,0 +1,99 @@
+
+.art_main{
+    width:1050px;
+    margin: 10px 155px;
+    background: #f6f6f6;
+    padding-top:30px;
+    position: relative;
+}
+.art_header{
+    width:950px;
+    height:100px;
+    margin:0 50px;
+    border-bottom:2px solid #177300 ;
+}
+.art_header span.span_a{
+    background : url("../images/article/art_bg.jpg") no-repeat -11px -15px;
+}.art_header span.span_b{
+    background : url("../images/article/art_bg.jpg") no-repeat -11px -137px;
+}
+.art_header span.span_c{
+    background : url("../images/article/art_bg.jpg") no-repeat -11px -197px;
+}
+.art_header span.span_d{
+    background : url("../images/article/art_bg.jpg") no-repeat -11px -260px;
+}
+.art_header span.span_e{
+    background : url("../images/article/art_bg.jpg") no-repeat -11px -325px;
+}
+.art_header span.span_f{
+    background : url("../images/article/art_bg.jpg") no-repeat -11px -75px;
+}
+.art_header span a:hover{
+    background-color:rgba(44,44,44,.3) ;
+}
+.art_header span{
+    display: inline-block;
+    width:125px;
+    height:50px;
+    margin: 0 15px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+.art_header span a{
+    display:inline-block;
+    width:125px;
+    height:50px;
+    font-size: 1.2em;
+    font-weight: 900;
+    color: #124D05;
+    background-color:rgba(255,255,255,.4);
+}
+.art_moddle{
+    padding: 30px;
+}
+.show_pic{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #124D05;
+}
+.show_pic ul li:hover{
+    background: #F0FCF0;
+}
+.show_pic li{
+    height:150px;
+}
+/**************/
+.art_pow{
+    width:100%;
+    height:200px;
+    margin-top: 30px;
+    border:1px solid #177300;
+    border-radius: 10px;
+}
+.art_pow_header{
+    width:95%;
+    margin-left: 2%;
+    height:40px;
+    line-height: 40px;
+    border-bottom: 1px solid #177300;
+}
+.art_pow_main{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.art_pow_main ul{
+    width:100%;
+    list-style-type: disc;
+}
+.art_pow_main ul li{
+    width:35%;
+    float:left;
+    height:30px;
+    margin-right: 20px;
+}
+/***********************/
+.pic img:hover{
+    border:2px solid #177300;
+    box-shadow: 0 0 3px 2px #bbb;
+}

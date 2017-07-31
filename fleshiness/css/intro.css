@@ -1,0 +1,294 @@
+
+body{
+	position:relative;
+	background: #fff;
+}
+.rt{float:right;}
+.clear{clear:both;}
+a{
+	color:#000;
+	text-decoration:none;
+}
+hr{
+	float:left;
+	width:95%;
+	text-align:center;
+}
+.width-1{width:100%;}
+
+/**********************************/
+#section{
+   margin-bottom:400px;
+	padding: 10px 30px;
+	width: 1280px;
+}
+.sidebar{
+  padding:5px 0 0;
+  width: 150px;
+  text-align:center;
+  position:fixed;
+  top:55px;
+  z-index:100;
+	left: 0;
+}
+.sidebar h1 a{
+	font-size: 1.2em;
+    font-weight:700;
+    margin-bottom: 1em;
+    display: inline-block;
+    text-decoration: none;
+    color: #83d5d1;
+    font-family: 'OpenSans-ExtraBold';
+    background-color: #333;
+    padding: 15px 14px;
+    border-radius:6px;
+}
+.sidebar h1 a span{
+	color:#eae655;
+}
+
+.top-menu ul{
+	padding-left:0px;
+	padding-top:10px;
+}
+.top-menu ul li{
+	display:block;
+}
+.top-menu ul li a{
+	display:block;
+	color:#000;
+	padding-bottom:15px;
+	font-size:20px;
+	text-align:center;
+}
+.top-menu ul li.active a,.top-menu ul li a:hover{
+	color:#83d5d1;
+	text-decoration:none;
+}
+/*****************************/
+.right-pic{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border: 5px solid #177300;
+	margin-top: 100px;
+	overflow: hidden;
+	top: 170px;
+	left: 85%;
+}
+.side_img{
+	width:600px;
+	height:150px;
+	position: absolute;
+	z-index: 1;
+}
+.side_img img{
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+.btn_img  {
+	position: absolute;
+	z-index: 99;
+	height: 10px;
+	width: 100px;
+}
+.btn_img span{
+	width:5px;
+	height:5px;
+	border-radius: 50%;
+	background: #177300;
+	padding: 5px;
+	cursor: pointer;
+	display: block;
+	margin: 2px;
+}
+.btn_img span.on{
+	background: #C1F3CC;
+}
+/***************************/
+#mid_section{
+	width:67%;
+	position:absolute;
+	top:130px;
+	left:16%;
+}
+.img_mid img{
+	width:890px;
+	height:65px;
+}
+.txt_mid{
+	margin-top:0;
+}
+.first_txt_a{
+	margin-left:20px;
+	margin-right:20px;
+	height:60px;
+}
+.first_txt_a h2{
+	line-height:60px;
+	margin:0;
+	float:left;
+	font-size:34px;
+	color:#041121;
+	font-weight:bold;
+}
+.first_txt_a h2 span{
+	font-size:24px;
+}
+.first_txt{
+	float:right;
+	color:#45607B;
+	line-height:60px;
+	font-size:14px;
+	margin-right:10px;
+}
+p{
+	float:left;
+	margin-top:-10px;
+	text-indent:40px;
+	font-size:16px;
+	color:#000;
+	line-height:30px;
+}
+.first_txt_b>p{
+	margin-bottom: 50px;
+}
+/*********************************/
+.txt_a{
+	min-height:500px;
+	margin-top: 100px;
+}
+.txt_a:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.txt_a h3{
+	float:left;
+	font-size:26px;
+	width:95%;
+}
+.txt_a h3 b{
+	height:5px;
+	width:30px;
+	padding:15px 15px;
+	background-color:#72A8C7;
+	margin-right:10px;
+}
+.txt_a h3 i{
+	width:95%;
+	float:right;
+	border:2px solid #72A8C7;
+}
+.txt_a p{
+	margin-bottom:30px;
+	font-size:14px;
+	float:left;
+}
+.txt_a div{
+	margin-bottom:10px;
+}
+.txt_a div p {
+	text-indent:0;
+	float:left;
+	padding-left:40px;
+	margin-bottom:0;
+}
+.txt_a h4{
+	font-size:24px;
+	float:left;
+	width:100%;
+	margin-top: 20px;
+}
+.txt_a h5{
+	font-size:18px;
+	float:left;
+	width:100%;
+	margin:10px;
+}
+
+/***********返回顶部***********************/
+#toTop{
+	position:fixed;
+	bottom:100px;
+	right:0;
+	display:none;
+	z-index: 111;
+	width:70px;
+	height:30px;
+	background: #177300;
+	border:1px solid #7bA9C8;
+	border-radius: 5px;
+	text-align: center;
+	line-height:30px;
+}
+#toTop a{
+	color:#fff;
+}
+/***********底部***************************/
+#footer{
+	height:150px;
+	width:100%;
+	position:absolute;
+	bottom:-3770px;
+	background:#177300;
+	z-index:1;
+}
+.footerTopDl ul{
+	list-style-type:none;
+	color:#fff;
+	margin-top: 30px;
+}
+.footerCon{
+	color:#000;
+	position:absolute;
+	left:15%;
+	top:2%;
+}
+.footerTopRight{
+	position:absolute;
+	right:-400px;
+	top:50px;
+
+}
+.footerTopRight a{
+	color:#fff;
+}
+/*********中间图******************/
+.intro_img{
+	width:1000px;
+	height:100px;
+	margin-bottom: 20px;
+}
+.intro_img ul{
+	list-style-type:none;
+	float: left;
+}
+.intro_img ul li{
+	float: left;
+	width:150px;
+	height:110px;
+	margin:5px;
+	padding: 5px;
+	position: relative;
+	border: 1px solid #177300;
+	border-radius: 2px 2px 2px 2px;
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #777;
+}
+.intro_img img{
+	width:150px;
+	height:100px;
+}
+.intro_img ul li p{
+	width:160px;
+	height:auto;
+	background:rgba(00,00,00,.5);
+	position: absolute;
+	left: 0;
+	bottom:0;
+	color:#fff;
+
+}
